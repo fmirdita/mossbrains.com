@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mossbrains. Outgrow and Mana Weaver are in development. A new website is on its way.">
+  <meta name="theme-color" content="#10251c">
+  <title>Mossbrains</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; color: #f4f8ef; background: #10251c; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100svh; display: flex; flex-direction: column; }
+    header, main, footer { width: min(100% - 3rem, 70rem); margin-inline: auto; }
+    header { padding-block: 2rem; color: #c5ee78; font-size: 1rem; }
+    main { flex: 1; display: flex; flex-direction: column; justify-content: center; padding-block: 4rem 6rem; }
+    h1 { font-family: Georgia, serif; font-size: clamp(3.5rem, 12vw, 9rem); font-weight: 400; letter-spacing: -.065em; line-height: 1.05; margin: 0 0 2rem; overflow-wrap: anywhere; }
+    .intro { max-width: 38rem; font-size: clamp(1.125rem, 2.5vw, 1.5rem); line-height: 1.6; margin: 0; color: #d6e2d9; }
+    .projects { border-top: 1px solid #536759; margin-top: 4rem; padding-top: 1.5rem; }
+    .label { color: #c5ee78; font-size: .9375rem; margin: 0 0 .75rem; }
+    h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); font-weight: 400; margin: 0; line-height: 1.35; }
+    footer { display: flex; flex-wrap: wrap; gap: 1rem 2rem; justify-content: space-between; align-items: baseline; padding-block: 1.5rem 2rem; border-top: 1px solid #536759; font-size: 1rem; }
+    footer p { margin: 0; color: #d6e2d9; }
+    a { color: #c5ee78; text-underline-offset: .25em; text-decoration-thickness: 1px; overflow-wrap: anywhere; }
+    a:hover { color: #fff; }
+    a:focus-visible { outline: 2px solid #c5ee78; outline-offset: 6px; border-radius: 2px; }
+    @media (max-width: 36rem) { main { padding-block: 3rem 4rem; } .projects { margin-top: 3rem; } }
+  </style>
+</head>
+<body>
+  <header>mossbrains.com</header>
+  <main>
+    <h1>Mossbrains</h1>
+    <p class="intro">Our new website is taking shape. We’re building, playtesting, and preparing to share more.</p>
+    <section class="projects" aria-labelledby="projects-title">
+      <p class="label">In development</p>
+      <h2 id="projects-title">Outgrow &amp; Mana Weaver</h2>
+    </section>
+  </main>
+  <footer>
+    <p>A company by <a href="https://fmird.com">Filip Mirdita</a></p>
+    <a href="mailto:fil@mossbrains.com">fil@mossbrains.com</a>
+  </footer>
+</body>
+</html>
