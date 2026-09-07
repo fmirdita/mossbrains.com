@@ -3,15 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Mossbrains. Outgrow and Mana Weaver are in development. A new website is on its way.">
+  <meta name="description" content="Mossbrains. Outgrow and Mana Weaver are in development. Development notes, writing, and video.">
   <meta name="theme-color" content="#10251c">
   <title>Mossbrains</title>
+  <link rel="stylesheet" href="/assets/css/journal.css">
   <style>
     :root { color-scheme: dark; font-family: system-ui, sans-serif; color: #f4f8ef; background: #10251c; }
     * { box-sizing: border-box; }
     body { margin: 0; min-height: 100svh; display: flex; flex-direction: column; }
     header, main, footer { width: min(100% - 3rem, 70rem); margin-inline: auto; }
-    header { padding-block: 2rem; color: #c5ee78; font-size: 1rem; }
+    header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; padding-block: 2rem; color: #c5ee78; font-size: 1rem; }
     main { flex: 1; display: flex; flex-direction: column; justify-content: center; padding-block: 4rem 6rem; }
     h1 { font-family: Georgia, serif; font-size: clamp(3.5rem, 12vw, 9rem); font-weight: 400; letter-spacing: -.065em; line-height: 1.05; margin: 0 0 2rem; overflow-wrap: anywhere; }
     .intro { max-width: 38rem; font-size: clamp(1.125rem, 2.5vw, 1.5rem); line-height: 1.6; margin: 0; color: #d6e2d9; }
@@ -27,13 +28,22 @@
   </style>
 </head>
 <body>
-  <header>mossbrains.com</header>
+  <header><a href="/">mossbrains.com</a><a href="/journal/">Journal</a></header>
   <main>
     <h1>Mossbrains</h1>
     <p class="intro">Our new website is taking shape. We’re building, playtesting, and preparing to share more.</p>
     <section class="projects" aria-labelledby="projects-title">
       <p class="label">In development</p>
       <h2 id="projects-title">Outgrow &amp; Mana Weaver</h2>
+    </section>
+    <section class="projects publishing-section" aria-labelledby="journal-title">
+      <p class="label">From the studio</p>
+      <h2 id="journal-title">Journal</h2>
+      <p class="intro">Writing and videos from the development of Outgrow and Mana Weaver.</p>
+      <a class="journal-link" href="/journal/">Read the journal →</a>
+      <!-- SOCIAL LINKS START -->
+
+<!-- SOCIAL LINKS END -->
     </section>
   </main>
   <footer>
